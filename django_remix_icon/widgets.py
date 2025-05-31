@@ -2,7 +2,7 @@
 
 from typing import Any, Dict, Optional
 
-from django.forms import Media, Widget
+from django.forms import Media
 from django.forms.widgets import Select
 from django.utils.safestring import mark_safe
 from django.conf import settings
@@ -11,7 +11,7 @@ from django_remix_icon.constants import ICON_CHOICES, REMIX_ICONS
 from django_remix_icon.defaults import REMIX_ICON_CDN_URL
 
 
-class RemixIconWidget(Widget):
+class RemixIconWidget(Select):
     """
     A custom select widget for choosing Remix Icons with preview functionality.
 

@@ -17,6 +17,6 @@ Features:
 
 from typing import Final
 
-__version__: Final[str] = "1.0.0"
+__version__: Final[str] = "1.0.2"
 __author__: Final[str] = "Berkay Şen"
 __email__: Final[str] = "brktrl@protonmail.ch"

@@ -1,0 +1,24 @@
+{% extends "django/forms/widgets/select.html" %}
+
+{% block optgroups %}
+    {% for group_name, group_choices, group_index in widget.optgroups %}
+        {% if group_name %}
+            <optgroup label="{{ group_name }}">
+        {% endif %}
+        {% for option in group_choices %}
+            {% include "django/forms/widgets/select_option.html" with widget=option %}
+        {% endfor %}
+        {% if group_name %}
+            </optgroup>
+        {% endif %}
+    {% endfor %}
+{% endblock %}
+
+{% block value %}
+    {% if widget.value %}
+        <div class="remix-icon-preview">
+            <i class="ri-{{ widget.value }}"></i>
+            <span class="icon-name">{{ widget.value }}</span>
+        </div>
+    {% endif %}
+{% endblock %}

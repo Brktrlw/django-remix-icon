@@ -37,8 +37,8 @@ django.setup()
 project = "Django Remix Icon"
 copyright = "2025, Berkay Şen"
 author = "Berkay Şen"
-release = "1.0.0"
-version = "1.0.0"
+release = "1.0.2"
+version = "1.0.2"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

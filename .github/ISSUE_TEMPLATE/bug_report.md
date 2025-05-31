@@ -27,7 +27,7 @@ If applicable, add screenshots to help explain your problem.
  - OS: [e.g. Ubuntu 22.04]
  - Python Version: [e.g. 3.9.5]
  - Django Version: [e.g. 4.2.0]
- - django-remix-icon Version: [e.g. 1.0.0]
+ - django-remix-icon Version: [e.g. 1.0.2]
 
 **Additional Context**
 Add any other context about the problem here.

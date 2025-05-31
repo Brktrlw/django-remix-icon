@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="django-remix-icon",
-    version="1.0.0",
+    version="1.0.2",
     description="Django field and template tags for Remix Icons with admin integration",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",

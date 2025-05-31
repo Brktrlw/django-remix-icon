@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "django-remix-icon"
-version = "1.0.0"
+version = "1.0.2"
 description = "Django field and template tags for Remix Icons with admin integration"
 readme = "README.md"
 requires-python = ">=3.8"
