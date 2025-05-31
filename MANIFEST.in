@@ -1,0 +1,13 @@
+include LICENSE
+include README.md
+include pyproject.toml
+include setup.py
+recursive-include django_remix_icon/static *
+recursive-include django_remix_icon/templates *
+recursive-include django_remix_icon/templatetags *
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.pyd
+global-exclude __pycache__
+global-exclude *.so
+global-exclude .DS_Store

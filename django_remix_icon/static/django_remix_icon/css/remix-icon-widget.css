@@ -1,0 +1,170 @@
+/* Django Remix Icon Widget Styles with Select2 Integration */
+
+.remix-icon-select {
+    min-width: 200px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Select2 customization for remix icon widget */
+.remix-icon-select + .select2-container {
+    margin-bottom: 12px;
+}
+
+.remix-icon-select + .select2-container .select2-selection--single {
+    height: 38px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0;
+}
+
+.remix-icon-select + .select2-container .select2-selection--single .select2-selection__rendered {
+    padding: 8px 12px;
+    line-height: 22px;
+}
+
+.remix-icon-select + .select2-container .select2-selection--single .select2-selection__arrow {
+    height: 36px;
+    right: 8px;
+}
+
+/* Clear button styling */
+.remix-icon-select + .select2-container .select2-selection__clear {
+    color: #666;
+    cursor: pointer;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 26px;
+    margin-top: 8px;
+    padding: 2px;
+    line-height: 1;
+    border-radius: 2px;
+    transition: all 0.2s ease;
+}
+
+.remix-icon-select + .select2-container .select2-selection__clear:hover {
+    color: #dc3545;
+    background-color: rgba(220, 53, 69, 0.1);
+}
+
+/* Custom styling for icon options in dropdown */
+.remix-icon-option {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+}
+
+.remix-icon-option i {
+    font-size: 18px;
+    color: #007bff;
+    min-width: 20px;
+    text-align: center;
+}
+
+.remix-icon-option .icon-name {
+    font-size: 14px;
+    color: #495057;
+}
+
+/* Custom styling for selected icon */
+.remix-icon-selection {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.remix-icon-selection i {
+    font-size: 16px;
+    color: #007bff;
+}
+
+.remix-icon-selection .icon-name {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Select2 dropdown customization */
+.select2-dropdown {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.select2-results__option {
+    padding: 0;
+}
+
+.select2-results__option--highlighted .remix-icon-option {
+    background: #007bff;
+    color: white;
+}
+
+.select2-results__option--highlighted .remix-icon-option i {
+    color: white;
+}
+
+.select2-results__option--highlighted .remix-icon-option .icon-name {
+    color: white;
+}
+
+/* Search input styling */
+.select2-search--dropdown .select2-search__field {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Icon size classes for templates */
+.remix-icon {
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.remix-icon.size-sm {
+    font-size: 0.875rem;
+}
+
+.remix-icon.size-lg {
+    font-size: 1.125rem;
+}
+
+.remix-icon.size-xl {
+    font-size: 1.25rem;
+}
+
+.remix-icon.size-2x {
+    font-size: 2rem;
+}
+
+.remix-icon.size-3x {
+    font-size: 3rem;
+}
+
+.remix-icon.size-4x {
+    font-size: 4rem;
+}
+
+.remix-icon.size-5x {
+    font-size: 5rem;
+}
+
+/* Error state */
+.remix-icon-error {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .remix-icon-option {
+        padding: 6px 10px;
+    }
+
+    .remix-icon-option i {
+        font-size: 16px;
+    }
+}

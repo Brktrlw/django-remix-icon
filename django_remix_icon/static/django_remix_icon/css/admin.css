@@ -1,0 +1,146 @@
+/* Django Admin specific styles for Remix Icon fields with Select2 */
+
+/* Admin list view icon display */
+.field-icon_display i,
+.field-icon_preview i {
+    font-size: 16px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+/* Admin change form icon field styling */
+.form-row .remix-icon-select {
+    min-width: 250px;
+}
+
+/* Select2 integration in admin forms */
+.form-row .remix-icon-select + .select2-container {
+    width: 100% !important;
+    max-width: 400px;
+}
+
+.form-row .remix-icon-select + .select2-container .select2-selection--single {
+    height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.form-row .remix-icon-select + .select2-container .select2-selection--single .select2-selection__rendered {
+    padding: 4px 8px;
+    line-height: 24px;
+    font-size: 13px;
+}
+
+.form-row .remix-icon-select + .select2-container .select2-selection--single .select2-selection__arrow {
+    height: 30px;
+    right: 6px;
+}
+
+/* Select2 dropdown styling in admin */
+.select2-container--default .select2-dropdown {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #ddd;
+    padding: 4px 8px;
+    font-size: 13px;
+}
+
+/* Icon options in admin dropdown */
+.select2-container--default .remix-icon-option {
+    padding: 6px 10px;
+    font-size: 13px;
+}
+
+.select2-container--default .remix-icon-option i {
+    font-size: 16px;
+    min-width: 18px;
+}
+
+/* Selected icon in admin field */
+.select2-container--default .remix-icon-selection {
+    font-size: 13px;
+}
+
+.select2-container--default .remix-icon-selection i {
+    font-size: 14px;
+}
+
+/* Responsive adjustments for admin */
+@media (max-width: 767px) {
+    .form-row .remix-icon-select + .select2-container {
+        max-width: 100%;
+    }
+}
+
+/* Inline admin support */
+.inline-group .remix-icon-select {
+    min-width: 180px;
+}
+
+.inline-group .remix-icon-select + .select2-container {
+    max-width: 250px;
+}
+
+.inline-group .remix-icon-select + .select2-container .select2-selection--single {
+    height: 28px;
+}
+
+.inline-group .remix-icon-select + .select2-container .select2-selection--single .select2-selection__rendered {
+    padding: 2px 6px;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+/* Admin tabular inline adjustments */
+.tabular .field-icon {
+    min-width: 150px;
+}
+
+.tabular .remix-icon-select + .select2-container {
+    width: 140px !important;
+}
+
+/* Ensure icons display properly in admin lists */
+.admin-list-icons {
+    white-space: nowrap;
+}
+
+.admin-list-icons i {
+    margin-right: 4px;
+}
+
+/* Focus states for better accessibility */
+.form-row .remix-icon-select + .select2-container .select2-selection--single:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* Loading state */
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+    color: #999;
+}
+
+/* Admin clear button styling */
+.form-row .remix-icon-select + .select2-container .select2-selection__clear {
+    color: #666;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 22px;
+    margin-top: 4px;
+    padding: 2px;
+    line-height: 1;
+    border-radius: 2px;
+    transition: all 0.2s ease;
+}
+
+.form-row .remix-icon-select + .select2-container .select2-selection__clear:hover {
+    color: #dc3545;
+    background-color: rgba(220, 53, 69, 0.1);
+}

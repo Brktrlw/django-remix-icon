@@ -1,0 +1,129 @@
+/* Custom styles for Django Remix Icon documentation */
+
+/* Logo and branding */
+.wy-side-nav-search {
+    background-color: #2980B9;
+}
+
+.wy-side-nav-search .wy-dropdown > a,
+.wy-side-nav-search > a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Code blocks */
+.highlight {
+    background: #f8f9fa;
+}
+
+.highlight .c1 {
+    color: #6c757d;
+}
+
+/* API reference styling */
+.py.class > dt,
+.py.method > dt,
+.py.function > dt {
+    background-color: #f1f3f4;
+    border-left: 4px solid #2980B9;
+    padding: 8px 12px;
+}
+
+/* Table styling */
+table.docutils {
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+table.docutils th,
+table.docutils td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+}
+
+table.docutils th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+/* Badge styling for versions and status */
+.badges {
+    margin: 1em 0;
+}
+
+.badges img {
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+/* Example code blocks */
+.highlight-python .highlight,
+.highlight-html .highlight,
+.highlight-css .highlight,
+.highlight-javascript .highlight {
+    border-left: 4px solid #28a745;
+    padding-left: 12px;
+}
+
+/* Warning and note boxes */
+.admonition {
+    margin: 1em 0;
+    padding: 12px;
+    border-left: 4px solid #ccc;
+    background-color: #f8f9fa;
+}
+
+.admonition.note {
+    border-left-color: #17a2b8;
+    background-color: #e7f3ff;
+}
+
+.admonition.warning {
+    border-left-color: #ffc107;
+    background-color: #fff3cd;
+}
+
+.admonition.danger {
+    border-left-color: #dc3545;
+    background-color: #f8d7da;
+}
+
+/* Navigation improvements */
+.wy-menu-vertical li.current > a {
+    border-right: 2px solid #2980B9;
+}
+
+/* Mobile responsive improvements */
+@media screen and (max-width: 768px) {
+    .rst-content .highlight > pre {
+        font-size: 12px;
+        overflow-x: auto;
+    }
+
+    table.docutils {
+        font-size: 14px;
+    }
+}
+
+/* Icon examples styling */
+.icon-example {
+    display: inline-block;
+    margin: 4px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    font-family: monospace;
+}
+
+.icon-preview {
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+/* Code parameter styling */
+.sig-param {
+    font-style: italic;
+    color: #6c757d;
+}
