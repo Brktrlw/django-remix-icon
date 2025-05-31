@@ -35,7 +35,7 @@ if not settings.configured:
 django.setup()
 
 project = "Django Remix Icon"
-copyright = "2024, Berkay Şen"
+copyright = "2025, Berkay Şen"
 author = "Berkay Şen"
 release = "1.0.0"
 version = "1.0.0"

@@ -13,7 +13,7 @@ A beautiful and powerful Django package that seamlessly integrates [Remix Icons]
 
 ## ✨ Demo
 
-![Demo](screenshots/demo.gif)
+![Demo](https://raw.githubusercontent.com/Brktrlw/django-remix-icon/refs/heads/main/screenshots/demo.gif)
 
 ## ✨ Features
 

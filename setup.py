@@ -15,8 +15,6 @@ setup(
         "Documentation": "https://django-remix-icon.readthedocs.io/",
         "Repository": "https://github.com/brktrlw/django-remix-icon",
         "Bug Tracker": "https://github.com/brktrlw/django-remix-icon/issues",
-        "Changelog": "https://django-remix-icon.readthedocs.io/en/latest/changelog.html",
-        "Funding": "https://github.com/sponsors/brktrlw",
     },
     packages=find_packages(),
     include_package_data=True,
